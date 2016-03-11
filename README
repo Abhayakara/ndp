@@ -1,0 +1,4 @@
+NDP is a DNS proxy that will add EDNS0 options that can be used to
+identify individual DNS hosts behind a NAT so as to do per-client custom
+filtering.   It is a proof of concept implementation, and should not be
+used in production, since it doesn't support TCP fallback.
